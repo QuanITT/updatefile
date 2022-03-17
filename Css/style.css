@@ -1,65 +1,80 @@
+    /* Setting Service */
+    
     * {
         margin: auto;
         padding: auto;
         font-family: Arial, Helvetica, sans-serif;
     }
+    /* Service-Top  */
     
-    .text {
+    .service-title {
         padding-top: 20px;
         text-align: center;
         font-weight: bold;
     }
     
-    .hinhanh {
-        width: 1170px;
+    .service-image {
+        /* width: 99%; */
         padding-top: 30px;
     }
     
-    .text1 {
+    .service-title-open {
         padding-top: 15px;
         font-size: 15px;
+        line-height: 25px;
     }
     
-    .text2 {
+    .service-content {
         padding-top: 30px;
         font-size: 15px;
+        line-height: 25px;
     }
     
-    .text3 {
-        padding-top: 30px;
+    .service-content-image {
+        padding-top: 40px;
     }
     
-    .text3 h3 {
+    .service-content-image h3 {
         font-weight: bold;
     }
     
-    .text3 ul li {
+    .service-content-image ul li {
         display: block;
         padding-top: 15px;
         font-size: 15px;
     }
     
-    .text3 ul li img {
+    .service-content-image ul li img {
         width: 2.3%;
+        padding-right: 5px;
     }
     
-    .main {
+    .service-content-image ul {
+        padding-left: 0rem;
+    }
+    /* end service-top */
+    /* Design Service Main  */
+    
+    .service-main {
         background-color: #f0f4f8;
-        width: auto;
-        height: 600px;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 12%;
     }
     
-    .main h3 {
-        padding-top: 70px;
+    .service-main h3 {
         text-align: center;
+        margin-bottom: 10%;
+        top: 38px;
     }
     
-    .main .col-md-4 {
+    .service-main .col-md-4 {
+        margin-bottom: 99px;
         border-radius: 6px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-        width: 300px;
-        height: 450px;
-        border-bottom: 3px solid #04b0fc;
+        width: 350px;
+        height: 550px;
+        border-bottom: 3px solid #03affb;
         padding: 0px;
         color: #f0f4f8;
         border-radius: 17px;
@@ -67,10 +82,10 @@
         border-bottom-left-radius: 7px;
         transition: calc(0.3s)
     }
+    /* design text Col */
     
-    .main .col-md-4 .text4 {
-        background: rgb(12, 149, 246);
-        background: linear-gradient(180deg, rgba(12, 149, 246, 1) 2%, rgba(7, 165, 249, 1) 96%, rgba(2, 184, 253, 1) 100%);
+    .service-main .col-md-4 .service-main-box {
+        background-color: #03affb;
         width: auto;
         height: 32%;
         border-radius: 17px;
@@ -78,7 +93,7 @@
         border-bottom-left-radius: 0px;
     }
     
-    .text5 {
+    .service-main-box1 {
         font-size: small;
         text-align: center;
         color: #b0dffc;
@@ -86,7 +101,7 @@
         top: 20px;
     }
     
-    .text6 {
+    .service-main-box2 {
         text-align: center;
         color: aliceblue;
         font-size: 24px;
@@ -94,12 +109,40 @@
         top: 15px;
     }
     
+    .service-main-box3 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .service-main-box5 {
+        color: black;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+    
+    .service-main-box5 ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    
+    .service-main-box5 ul li img {
+        width: 10%;
+        position: relative;
+        right: 20px;
+    }
+    /* end design text col */
+    /* design box text */
+    
     .box {
         background-color: white;
         width: 55%;
         height: 60%;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         border-radius: 1px;
+        padding-top: 13px;
+        position: relative;
+        top: 20px;
     }
     
     .box p {
@@ -109,16 +152,11 @@
         margin: 0px;
     }
     
-    .text7 {
-        font-weight: bold;
-        font-size: 30px;
-    }
-    
     .button1:hover {
         background-color: #06acfb;
         color: white;
         position: relative;
-        left: 90px;
+        left: 103px;
         top: 50px;
     }
     
@@ -131,40 +169,27 @@
         border: 2px solid #07a6f9;
         display: block;
         position: relative;
-        left: 90px;
+        left: 103px;
         top: 50px;
         font-size: 12px;
     }
+    /* end design box text */
     
-    .main .col-md-4:hover {
+    .service-main .col-md-4:hover {
         transform: translateY(-25px);
     }
+    /* end design serivce Main */
+    /* hiệu ứng làm mờ text */
     
-    .texttext {
-        color: black;
-        position: relative;
-        top: 30px;
-        left: 20px;
-    }
-    
-    .texttext ul li {
-        display: block;
-        margin: 5px 0;
-    }
-    
-    .texttext ul li img {
-        width: 10%;
-        position: relative;
-        right: 20px;
-    }
-    
-    .textmo {
+    .service_text_dark {
         color: #a2a2a2;
     }
     
-    .textmo img {
+    .service_text_dark img {
         color: #a2a2a2;
     }
+    /* end text mơ */
+    /* desing last service  */
     
     .title {
         color: #303036;
@@ -175,11 +200,11 @@
     }
     
     .service {
-        height: 600px;
+        height: 100%;
         width: auto;
     }
     
-    .titlee {
+    .all-service-title {
         text-align: center;
         position: relative;
         top: 20px;
@@ -190,12 +215,15 @@
     .textcol .row .col-md-4 {
         position: relative;
         top: 40px;
-        margin: 11px 0;
+        margin: 13px 0;
         position: relative;
+        border-radius: 15px;
     }
     
     .textcol .row .col-md-4 img {
+        width: 100%;
         border-radius: 10px;
+        object-fit: cover;
     }
     
     .textcol .row .col-md-4 a {
@@ -215,20 +243,19 @@
     
     .textcol .row .col-md-4 p {
         position: absolute;
-        top: 60px;
+        margin-left: 20px;
         opacity: 0;
-        text-align: center;
-        line-height: 1.8;
         color: #fff;
     }
     
     .textcol .row .col-md-4 h4 {
         position: absolute;
-        top: 20px;
+        bottom: 20px;
         left: 100px;
         opacity: 0;
         font-weight: bold;
         color: #fff;
+        line-height: 20px;
     }
     
     .textcol .row .col-md-4:hover h4 {
@@ -248,15 +275,73 @@
     }
     
     .textcol .row .col-md-4:hover {
-        transition: calc(0.3s);
+        transition: calc(0.6s);
         border-radius: 15px;
-        background: rgb(12, 149, 246);
-        background: linear-gradient(180deg, rgba(12, 149, 246, 1) 2%, rgba(7, 165, 249, 1) 96%, rgba(2, 184, 253, 1) 100%);
+        background-color: #03affb;
+        box-sizing: border-box;
     }
     
     .content {
         display: flex;
-        align-items: center;
         position: relative;
-        top: 50px;
+        top: 120px;
     }
+    /* reponsive text */
+    
+    @media only screen and (min-width: 574px) and (max-width: 1170px) {
+        .service-main {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 100%;
+        }
+        .textcol .row .col-md-4 p {
+            position: absolute;
+            top: -50px;
+            opacity: 0;
+            color: #fff;
+            text-align: center;
+        }
+        .textcol .row .col-md-4 h4 {
+            position: absolute;
+            bottom: 50px;
+            left: 40px;
+            opacity: 0;
+            color: #fff;
+        }
+        .textcol .row .col-md-4 a {
+            position: absolute;
+            top: 170px;
+            left: 50%;
+        }
+    }
+    
+    @media only screen and (min-width: 100px) and (max-width: 1170px) {
+        .service-main {
+            max-width: 100%;
+        }
+        .container {
+            max-width: 100%;
+        }
+        .textcol .row .col-md-4 p {
+            position: absolute;
+            top: -70px;
+            opacity: 0;
+            color: #fff;
+            text-align: center;
+            font-size: 12px;
+        }
+        .textcol .row .col-md-4 h4 {
+            position: absolute;
+            bottom: 60px;
+            left: 40px;
+            opacity: 0;
+            color: #fff;
+        }
+        .textcol .row .col-md-4 a {
+            position: absolute;
+            top: 118px;
+            left: 50%;
+        }
+    }
+    /* end desig last service */

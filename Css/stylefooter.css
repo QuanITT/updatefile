@@ -5,12 +5,21 @@
     color: white;
 }
 
+
+/* chinh kich thuoc footer */
+
 .footer {
     height: auto;
-    padding-top: 40px;
+    padding-top: 3%;
     background-color: #303132;
-    border-bottom: 2px solid #0281ff;
+    border-bottom: 2px solid #0181ff;
 }
+
+
+/* end */
+
+
+/* footer-open css */
 
 .col {
     position: relative;
@@ -18,20 +27,29 @@
 }
 
 .col-md-3 img {
-    width: 15%;
+    width: 17%;
     height: 50%;
 }
 
 .bigfox {
     position: relative;
-    left: 60px;
+    left: 18%;
     top: -40px;
     text-decoration: none;
+}
+
+.bigfox h3 {
+    color: #03affb;
+    font-weight: bold;
 }
 
 .col .text {
     position: relative;
     bottom: 27px;
+}
+
+.col-md-3 h3 {
+    font-weight: bold;
 }
 
 .col a {
@@ -42,7 +60,7 @@
 }
 
 .col a:hover {
-    background-color: #04a9ff;
+    background-color: #0181ff;
 }
 
 .col1 ul li a {
@@ -58,7 +76,7 @@
 }
 
 .col1 ul li i {
-    color: #0876e4;
+    color: #0181ff;
 }
 
 .col1 h3 {
@@ -84,7 +102,8 @@
 .col .post img {
     position: relative;
     bottom: 28px;
-    width: 21%;
+    width: 20%;
+    height: 1%;
 }
 
 .col1 hr {
@@ -92,21 +111,9 @@
     bottom: 25px;
 }
 
-.x1 {
-    float: right;
-}
-
-.x1 a {
-    text-decoration: none;
-}
-
-.x1 a i {
-    color: #0281ff;
-}
-
 .col3 p {
     position: relative;
-    left: 50px;
+    left: 46px;
     bottom: 10px;
     font-size: small;
     color: #919192;
@@ -119,19 +126,37 @@
 
 .col1 hr {
     width: 100px;
-    color: #0281ff;
+    color: #0181ff;
     position: relative;
     left: 33px;
     bottom: 11px;
 }
 
-.footer1 {
+
+/* design end footer */
+
+.footer-end {
     background-color: #242424;
     height: 80px;
     position: relative;
 }
 
-.footer1 .row {
+.footer-end .row {
     position: relative;
     top: 30px;
 }
+
+.footer-end-text {
+    float: right;
+}
+
+.footer-end-text a {
+    text-decoration: none;
+}
+
+.footer-end-text a i {
+    color: #0181ff;
+}
+
+
+/* end */
