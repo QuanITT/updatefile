@@ -1,16 +1,11 @@
-* {
-    margin: auto;
-    padding: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-
 /* chinh kich thuoc footer */
+
+.img_footer img {
+    padding-bottom: 20px;
+}
 
 .footer {
     height: auto;
-    padding-top: 3%;
     background-color: #303132;
     border-bottom: 2px solid #0181ff;
 }
@@ -21,110 +16,101 @@
 
 /* footer-open css */
 
-.col {
-    position: relative;
-    top: 20px;
-}
-
 .col-md-3 img {
-    width: 17%;
-    height: 50%;
+    height: 12%;
+    margin: auto;
 }
 
-.bigfox {
+.footer-title {
     position: relative;
     left: 18%;
     top: -40px;
     text-decoration: none;
 }
 
-.bigfox h3 {
+.footer-title h3 {
     color: #03affb;
+    font-size: 32px;
+    font-family: "Montserrat";
+    color: rgb(2, 139, 254);
     font-weight: bold;
+    position: relative;
+    bottom: 5px;
 }
 
-.col .text {
+
+/* design box 1 */
+
+.footer-box-firts .text {
     position: relative;
-    bottom: 27px;
+    bottom: 30px;
+    font-size: 16px;
+    font-family: "Istok Web";
+    color: rgba(255, 255, 255, 0.851);
+    line-height: 1.5;
 }
 
 .col-md-3 h3 {
     font-weight: bold;
+    font-family: "Montserrat";
+    color: #fff;
 }
 
-.col a {
-    border: 1px solid #fff;
+.footer-box-firts a {
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 18px;
     margin-right: 5px;
-}
-
-.col a:hover {
     background-color: #0181ff;
+    position: relative;
+    top: 5px;
+    color: #fff;
 }
 
-.col1 ul li a {
+.footer-box-firts a:hover {
+    border-radius: 5px;
+    padding: 15px 18px;
+    background-color: #303132;
+    border: 1px solid #fff;
+    transition: calc(0.1s);
+    color: #fff;
+}
+
+
+/* end */
+
+
+/* design box2 */
+
+.footer-box-second ul li a {
     margin-left: 10px;
     position: relative;
     text-decoration: none;
-    color: #fff;
+    font-size: 16px;
+    font-family: "Istok Web";
+    color: rgb(255, 255, 255);
     line-height: 35px;
 }
 
-.col1 ul li {
+.footer-box-second ul li {
     display: block;
 }
 
-.col1 ul li i {
+.footer-box-second ul li i {
     color: #0181ff;
 }
 
-.col1 h3 {
+.footer-box-second h3 {
     position: relative;
     left: 25px;
+    font-family: "Montserrat";
 }
 
-.col .post {
-    display: flex;
-}
-
-.col .post p {
-    position: relative;
-    right: 27px;
-    bottom: 20px;
-}
-
-.col hr {
-    position: relative;
-    bottom: 30px;
-}
-
-.col .post img {
-    position: relative;
-    bottom: 28px;
-    width: 20%;
-    height: 1%;
-}
-
-.col1 hr {
+.footer-box-second hr {
     position: relative;
     bottom: 25px;
 }
 
-.col3 p {
-    position: relative;
-    left: 46px;
-    bottom: 10px;
-    font-size: small;
-    color: #919192;
-}
-
-.col3 img a {
-    position: relative;
-    left: 6px;
-}
-
-.col1 hr {
+.footer-box-second hr {
     width: 100px;
     color: #0181ff;
     position: relative;
@@ -133,12 +119,81 @@
 }
 
 
+/* end */
+
+.footer-box-three .post {
+    display: flex;
+}
+
+.footer-box-three .post p {
+    position: relative;
+    right: 27px;
+    bottom: 20px;
+    font-weight: 400;
+}
+
+.footer-box-three hr {
+    position: relative;
+    bottom: 30px;
+}
+
+.footer-box-three {
+    position: relative;
+    top: 22px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.footer-box-three .post img {
+    position: relative;
+    bottom: 28px;
+    right: 15px;
+    width: 20%;
+    height: 1%;
+}
+
+
+/* design text box */
+
+.footer-text {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer-text img {
+    width: 18%;
+    position: relative;
+    /* line-height: 20px; */
+    top: 10px;
+    right: 7px;
+}
+
+.footer-text p {
+    position: relative;
+    left: 54px;
+    bottom: 10px;
+    font-size: small;
+    color: #919192;
+}
+
+.footer-text img a {
+    position: relative;
+    left: 6px;
+}
+
+
 /* design end footer */
 
 .footer-end {
     background-color: #242424;
-    height: 80px;
+    height: 140px;
     position: relative;
+    color: #fff;
 }
 
 .footer-end .row {
@@ -156,6 +211,29 @@
 
 .footer-end-text a i {
     color: #0181ff;
+}
+
+
+/* end */
+
+
+/* design reponsive */
+
+@media only screen and (min-width: 100px) and (max-width: 1170px) {
+    .footer {
+        max-width: 100%;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .footer-end {
+        max-width: 100%;
+    }
+}
+
+.place {
+    position: relative;
+    top: 50px;
 }
 
 
